@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "rollup -c && sed -f ../script.sed  pkcs10es6.js > output.js",
+    "build:es5": "npm run build && babel pkcs10.js -o pkcs10es5.js && mv pkcs10es5.js pkcs10.js"
+  },
+  "dependencies": {
+    "rollup": "^0.62.0"
+  }
+}

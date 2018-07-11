@@ -1,4 +1,7 @@
 .idea
+**/bundle.js
+**/output.js
+test/
 **/node_modules
 **/package-lock.json
 build
